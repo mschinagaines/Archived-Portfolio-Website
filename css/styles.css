@@ -9837,9 +9837,9 @@ button.bg-black:focus {
     text-align: center !important;
   }
 }
-/*
+
 @media (min-width: 992px) {
-  .text-lg-left {
+  /*.text-lg-left {
     text-align: left !important;
   }
 
@@ -10708,6 +10708,41 @@ textarea:hover {
   display: none;
 }
 
+@media (max-width: 411px) {
+  .formelements, #submit, .heading1 {
+    width: 37vh;
+  }
+
+  .text-white-50 {
+    font-size: 80%;
+  }
+
+  .masthead {
+    padding: 3rem 0rem;
+  }
+}
+
+@media (max-width: 398px) {
+  .formelements, #submit, .heading1 {
+    width: 40vh;
+  }
+
+  .text-white-50 {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 360px) {
+  .heading1 {
+    width: 35vh;
+    font-size: 130%;
+  }
+
+  .text-white-50 {
+    font-size: 80%;
+  }
+}
+
 @media (max-width: 280px) {
   .heading1 {
     font-size: 97%;
@@ -10722,10 +10757,13 @@ textarea:hover {
     width: 90%;
   }
 
+  
+
 }
 
 .text-shadow {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
 
 
